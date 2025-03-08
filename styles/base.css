@@ -1,0 +1,136 @@
+/*palette: https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
+body{
+
+}
+
+header {
+  background-color: #264653;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  font-family: 'Domine';
+  margin-bottom: 0;
+}
+
+nav {
+    margin-top: 0;
+    background-color: #2A9D8F;
+}
+
+nav ul{
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'M PLUS 1';
+    color: #264653;
+    font-size: 22px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-shadow: #264653 1px 1px 1px;
+    color: #E76F51;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+section h2{
+    background-color: #264653;
+    color: white;
+    font-family: 'Domine';
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.aboutme{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.aboutme p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+.profile{
+    width: 200px;
+    background-color: #2A9D8F;
+    padding: 5px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: gray 5px 5px 5px;
+}
+
+.section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 1fr 10%;
+}
+
+.aboutme h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.section2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.santiago-image{
+    width: 200px;
+    padding: 15px;
+}
+
+#santiago-text{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.card{
+    border: #264653 1px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    background-color: #264653;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
