@@ -1,0 +1,92 @@
+header{
+    background-color: #006184;
+    color: white;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+img{
+    width: 10rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 15rem;
+    grid-gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #006184;
+    color: white;
+    text-align: center;
+    padding: .20rem;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+}
+
+#menu::before{
+    content: "☰";
+    position: absolute;
+    top: 20px;
+    right: 3.4rem;
+}
+
+.navigation{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 760px;
+    background-color: white;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a{
+    color: rgb(0, 125, 165);
+    padding: 15px;
+}
+.navigation a:hover{
+    background-color: #006184;
+    color: white;
+}
+
+
+.show li {
+    display: block;
+}
+
+#menu.show:before{
+    content: "✖";
+}
+
+h1{
+    font-family: 'Zilla Slab';
+}
