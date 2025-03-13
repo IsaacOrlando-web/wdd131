@@ -9,8 +9,8 @@
         height: 100%;
         object-fit: cover;
     }
-    
-    h1 {
+
+    h2 {
         grid-column-start: 1;
         grid-column-end: 4;
     }
