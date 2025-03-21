@@ -20,6 +20,10 @@ header{
     text-shadow: 15px 10px var(--color1);
 }
 
+picture img{
+    width: 100%;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -75,12 +79,12 @@ footer{
         position: absolute;
         left: 10px;
     }
+
     section p{
         font-size: 1rem;
     }
     section span{
         font-size: 1rem;
-        
     }
     .data{
         top: 150px;
