@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/place-style.css">
+    <script src="scripts/place-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Puerto Aysen</h1>
+    </header>
+    <main>
+        <picture>
+            <!-- Imagen para pantallas grandes (1200px o más) -->
+            <source media="(min-width: 1200px)" srcset="images/large-puertoAysen.webp">
+            <!-- Imagen para pantallas medianas (768px o más) -->
+            <source media="(min-width: 768px)" srcset="images/medium-puertoAysen.webp">
+            <!-- Imagen para pantallas pequeñas (hasta 767px) -->
+            <source media="(max-width: 767px)" srcset="images/small-puertoAysen.webp">
+            <!-- Fallback para navegadores que no soportan <picture> -->
+            <img src="images/large-puertoAysen.webp" alt="Puerto Aysen" style="width: 100%;">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <img src="images/data.svg" alt="data logo" width="100px">
+            <p><span class="section-title">Location: </span>Southern Chile, Patagonia</p>
+            <p><span class="section-title">Population: </span>60,000 (Aysén Region).</p>
+            <p><span class="section-title">Climate: </span>Cold winters, mild summers; high rainfall.</p>
+            <p><span class="section-title">Economy: </span>Agriculture, livestock, fishing, tourism.</p>
+            <p><span class="section-title">Attractions: </span>Carretera Austral, Queulat National Park, General Carrera Lake.</p>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weathe-icon.svg" alt="weather Logo" width="100px">
+            <p><span class="section-title">Climate: </span>Oceanic, with cold winters and mild summers.</p>
+            <p><span class="section-title">Temperatures: </span>Summer (Dec-Feb): 10°C to 20°C (50°F to 68°F).</p>
+            <p><span class="section-title">Rainfall: </span>High rainfall throughout the year.</p>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span>👾👾 Isaac Maldonado👾👾</p>
+        <p>Last Modification: <span id="lastModification"></span></p>
+    </footer>
+</body>
+</html>
