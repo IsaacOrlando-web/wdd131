@@ -106,10 +106,14 @@ h1{
     font-size: small;
 }
 
+.card-tittle{
+    font-family: 'Domino';
+}
+
 .card-info span{
     color: rgb(137, 95, 176);
     font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Domino';
 }
 
 .card-info p{
