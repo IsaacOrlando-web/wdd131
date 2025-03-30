@@ -1,3 +1,12 @@
+window.onload = function() {
+    const d = new Date();
+    let year = d.getFullYear();
+    document.getElementById("currentYear").textContent = year;
+    
+    let oLastModif = new Date(document.lastModified);
+    document.getElementById("lastModification").textContent = oLastModif.toString();
+};
+
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -170,4 +179,3 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
-
