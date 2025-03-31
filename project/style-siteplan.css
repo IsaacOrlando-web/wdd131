@@ -1,0 +1,48 @@
+
+
+h1, h2{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+h2{
+    border-bottom: black 2px solid;
+}
+p, li{
+    font-family: "Georgia", "Palatino", "Book Antiqua", serif;
+}
+span{
+    font-size: large;
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    padding: 4rem;
+    text-align: justify;
+    border: black 1px solid;
+    width: 50%;
+    margin: auto;
+    background-color: #4F5659;
+    color: white;
+}
+
+section{
+    padding: 10px;
+    width: 20%;
+    border: black 1px solid;
+}
+
+.scenarios{
+    background-color: #CAC8C2;
+}
+.colors{
+    background-color: #BCA993;
+}
+.typography{
+    background-color: #CAC8C2;
+}
