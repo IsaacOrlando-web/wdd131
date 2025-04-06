@@ -87,3 +87,11 @@ input[type="submit"]{
 .stars input:checked ~ label::before {
 	content: "\2605";
 }
+
+footer{
+    text-align: center;
+    background-color: #F52F57;
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+}
