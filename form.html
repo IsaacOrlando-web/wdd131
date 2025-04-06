@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form-style.css">
+</head>
+<body>
+    <h1>Product Review</h1>
+    <form action="">
+        
+        <label for="product-name">Product Name</label>
+        <select name="product-name" id="product-name" required>
+            <option value="" disabled selected>Select a Product...</option>
+        </select>
+        <label>Overall Rating
+            <div class="stars">
+            	<input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+            	<input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+            	<input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+            	<input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+            	<input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+            </div>
+        </label>
+        
+        <label for="date-of-installation">Date of installation</label>
+        <input type="date" id="date" name="date-of-installation" required>
+
+        <div class="checkbox-group">
+            <label>Which features did you like most? <span>(Check all that apply)</span></label><br><br>
+            <input type="checkbox" id="feature-story" name="features" value="story">
+            <label for="feature-story">Great story</label><br>
+
+            <input type="checkbox" id="feature-gameplay" name="features" value="gameplay">
+            <label for="feature-gameplay">Fun gameplay</label><br>
+
+            <input type="checkbox" id="feature-music" name="features" value="music">
+            <label for="feature-music">Awesome music</label><br>
+
+            <input type="checkbox" id="feature-graphics" name="features" value="graphics">
+            <label for="feature-graphics">Cool graphics/style</label><br>
+
+            <input type="checkbox" id="feature-characters" name="features" value="characters">
+            <label for="feature-characters">Memorable characters</label>
+
+        </div>
+        
+        <label for="review">Written Review</label>
+        <textarea name="review" id="review"></textarea>
+
+        <label for="name">Your Name(optional)</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+
+        <input type="submit" value="Send Review" id="submit">
+    </form>
+</body>
+<script src="scripts/form-script.js"></script>
+</html>

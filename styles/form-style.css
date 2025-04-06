@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    background-color: #F52F57;
+    padding: 20px;
+    width: 70%;
+    max-width: 30rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+form{
+    margin-top: 20px;
+    background-color: #F79D5C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.422);;
+}
+
+label{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+input[type="text"],[type="date"], select{
+    padding: 10px;
+}
+
+textarea{
+    padding: 10px;
+    resize: none;
+}
+/* stars */
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #F52F57;
+    color: #EDEDF4;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.checkbox-group{
+    margin-top: 30px;
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: gold;
+	width: 30px;
+	height: 2px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #000;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
