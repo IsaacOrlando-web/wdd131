@@ -38,7 +38,29 @@ textarea{
     padding: 10px;
     resize: none;
 }
+
 /* stars */
+fieldset {
+    border: none; /* Elimina el borde predeterminado */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 20px 0 0 0; /* Ajusta el margen superior para alineación */
+  }
+  
+  .stars {
+    margin-top: 10px; /* Espacio entre el legend y las estrellas */
+  }
+  
+  .stars > label {
+    margin-top: 0; /* Anula el margin-top heredado */
+    cursor: pointer; /* Mejora la usabilidad */
+  }
+  
+  /* Opcional: mejora el estilo del legend */
+  legend {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
 input[type="radio"] {
 	display: none;
 	position: relative;
@@ -56,7 +78,7 @@ input[type="submit"]{
 }
 
 .checkbox-group{
-    margin-top: 30px;
+    margin-top: 3px;
 }
 
 .stars {
