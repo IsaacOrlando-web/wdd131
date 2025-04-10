@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosophy Channel</title>
+    <meta name="description" content="The website will feature articles, a book recommendation section, podcasts, videos, and a subscription option for updates. Also in the article, a section to write a comment.">
+    <meta name="author" content="Isaac Maldonado">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo philosophy channel" width="200">
+        <nav>
+            <ul>
+                <li><a href="#articles">Home</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="#podcasts">Podcasts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="portada">
+            <h2>Welcome to the Philosophy Channel</h2>
+            <p>Explore the depths of philosophical thought and engage with a community of thinkers.</p>
+            <button>Subscribe</button>
+        </div>
+        <section class="last-articles">
+            <h2 class="section-title">Latest Articles</h2>
+            <article>
+                <img src="images/Nietzche.jpg" alt="Nietzche" class="article-image">
+                <h3>Understanding Existentialism</h3>
+                <p>
+                    Nietzsche's existential revolution: How his ideas of the <em>Übermensch</em>, 
+                    "God is dead," and <em>amor fati</em> challenge us to create meaning 
+                    in a world without absolutes. Discover why his radical philosophy 
+                    remains fiercely relevant today.
+                </p>
+                <button>Read More</button>
+            </article>
+            <article>
+                <img src="images/IA.jpeg" alt="Artificial Intelligence" class="article-image">
+                <h3>The Ethics of Artificial Intelligence</h3>
+                <p>
+                    AI's ethical crossroads: From bias in algorithms to existential risks, 
+                    we examine the urgent moral dilemmas of artificial intelligence. 
+                    Who decides what’s "ethical" when machines think?
+                </p>
+                <button>Read More</button>
+            </article>
+            <article>
+                <img src="images/Hegel.JPG" alt="Hegel" class="article-image">
+                <h3>Philosophy of Mind</h3>
+                <p>The philosophy of mind explores the nature of the mind, mental events, and consciousness.</p>
+                <button>Read More</button>
+        </section>
+        <section class="Podcast">
+            <fieldset>
+                <legend>Podcast: Reflexión Filosófica</legend>
+                <div class="podcast-content">
+                    <img src="images/podcast logo.png" alt="Logo del Podcast" class="podcast-logo">
+                    <div class="episodes-list">
+                        <div class="episode">
+                            <div class="play-button" onclick="window.open('https://open.spotify.com/episode/5ngI6tmFMmhrccxMVYfSOt?si=miDP3qAmS8S8sLZbpcogZQ','_blank')"></div>
+                            <a href="https://open.spotify.com/episode/5ngI6tmFMmhrccxMVYfSOt?si=miDP3qAmS8S8sLZbpcogZQ" class="episode-title">Episode 1: Introduction to Albert Camus and Absurdism</a>
+                        </div>
+                        <div class="episode">
+                            <div class="play-button" onclick="window.open('https://open.spotify.com/episode/0TCCGfORTSFUMVf7mKs5F1?si=wuo4RwmeQ8GLnuW0T_v73w','_blank')"></div>
+                            <a href="https://open.spotify.com/episode/0TCCGfORTSFUMVf7mKs5F1?si=wuo4RwmeQ8GLnuW0T_v73w" class="episode-title">Episode 2: Albert Camus - Los Muros del absurdo</a>
+                        </div>
+                        <div class="episode">
+                            <div class="play-button" onclick="window.open('https://open.spotify.com/episode/4LXbzGoAvWrYMQfv89Bjre?si=bvx8i-UVTPGn4ztc7fhjXw','_blank')"></div>
+                            <a href="https://open.spotify.com/episode/4LXbzGoAvWrYMQfv89Bjre?si=bvx8i-UVTPGn4ztc7fhjXw" class="episode-title">Episode 3: Los muros del absurdo pt.2</a>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+        <section class="books">
+            <h2>Book Recommendations</h2>
+            <article>
+                <img src="images/myth of sisifus.jpg" alt="El mito de Sísifo" class="books-image">
+                <h3>The Myth of Sisyphus</h3>
+                <p>
+                    In this seminal work, Albert Camus examines the philosophy of the absurd - 
+                    humanity's search for meaning in a meaningless universe. Through the myth of 
+                    Sisyphus, he argues we must embrace life's struggles while revolting against 
+                    despair. A cornerstone of existentialist thought.
+                </p>
+                <a href="https://dhspriory.org/kenny/PhilTexts/Camus/Myth%20of%20Sisyphus-.pdf" target="_blank">
+                    <button>Read PDF</button>
+                </a>
+            </article>
+            <article>
+                <img src="images/thus spoke zarathustra.jpg" alt="La rebelión de las masas" class="books-image">
+                <h3>Thus Spoke Zarathustra</h3>
+                <p>"Thus Spoke Zarathustra" by Friedrich Nietzsche is a philosophical novel that follows the prophet Zarathustra as he shares his teachings on the Übermensch (Overman), the death of God, and the will to power. Through poetic and symbolic prose, Nietzsche explores themes of individualism, self-overcoming, and the creation of new values beyond good and evil.</p>
+                <a href="https://www.nothuman.net/images/files/discussion/1/9994c4af16851fe2bc691b8896cf6694.pdf" target="_blank">
+                    <button>Read PDF</button>
+                </a>
+            </article>
+            <article>
+                <img src="images/apology of socrates.jpg" alt="La rebelión de las masas" class="books-image">
+                <h3>Apology of Socrates</h3>
+                <p>"The Apology of Socrates" by Plato is a philosophical dialogue that recounts Socrates' defense speech during his trial in Athens (399 BC). Accused of corrupting the youth and impiety, Socrates argues that true wisdom lies in recognizing one's ignorance. He rejects fear-based rhetoric, accepts his fate, and famously declares that "the unexamined life is not worth living." The work explores themes of...</p>
+                <a href="https://www2.hawaii.edu/~freeman/courses/phil100/04.%20Apology.pdf" download="nombre-archivo.pdf">
+                    <button>Read PDF</button>
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> Philosophy Channel - Isaac Maldonado - BYU Idaho</p>
+        <p>Last Modification: <span id="last-modification"></span></p>
+    </footer>
+</body>
+</html>
