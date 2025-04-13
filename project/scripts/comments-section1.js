@@ -15,6 +15,7 @@ const emailInput = document.getElementById('email');
 const commentInput = document.getElementById('comment');
 const submitBtn = document.getElementById('submit-comment');
 const commentContainer = document.querySelector('.comment-list');
+const commentLenght = document.getElementById('comments-lenght');
 
 // Cargar comentarios al iniciar
 document.addEventListener('DOMContentLoaded', () => {
@@ -39,6 +40,7 @@ function saveComments(comments) {
 // Función para renderizar los comentarios
 function renderComments(comments) {
     commentContainer.innerHTML = '';
+    commentLenght.innerHTML = comments.length;
     
     if (comments.length === 0) {
         commentContainer.innerHTML = '<p>There are no Comments Yet, Be the first!</p>';
@@ -106,6 +108,3 @@ submitBtn.addEventListener('click', (e) => {
     // Mostrar feedback
     alert('Thanks For sharing!');
 });
-
-// Opcional: Limpiar comentarios (para desarrollo)
-// localStorage.removeItem(STORAGE_KEY);
